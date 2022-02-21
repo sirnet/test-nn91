@@ -223,7 +223,7 @@ ul {
     position: absolute;
     left: -97px;
     bottom: -85px;
-    background-image: url('./img/foto1.png');
+    background-image: url('../img/foto1.png');
     background-repeat: no-repeat;
     content: "";
     display: block;
@@ -235,7 +235,7 @@ ul {
     position: absolute;
     right: -100px;
     top: -51px;
-    background-image: url('./img/foto2.png');
+    background-image: url('../img/foto2.png');
     background-repeat: no-repeat;
     content: "";
     display: block;
