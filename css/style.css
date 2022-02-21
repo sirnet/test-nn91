@@ -737,6 +737,35 @@ input {
     .menu-item__line:nth-child(4) {
         top: 20px;
     }
+
+    .modal-form {
+        flex-direction: column;
+    }
+
+    .modal-form h4 {
+        text-align: center;
+    }
+
+    .modal-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .modal-item {
+        width: 300px;
+    }
+
+    .modal-right {
+        width: 100%;
+    }
+
+    .modal-right form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (max-width:425px){
@@ -802,6 +831,7 @@ input {
 
     .header-social {
         flex-direction: column;
+        align-items: center;
     }
 
     .social-list {
@@ -810,7 +840,7 @@ input {
 
     .social-item {
         margin-left: 0;
-        margin: 80px 10px 0;
+        margin: 50px 10px 0;
     }
 
     .header-social button {
